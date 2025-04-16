@@ -1,5 +1,5 @@
-#📊 Netflix Content Analysis Project
-This project is a complete end-to-end data analysis of Netflix’s content catalog using Python, MySQL, and Power BI. The goal was to uncover patterns in the type, release year, rating, duration, and origin of content available on Netflix, and visualize the insights using interactive dashboards.
+📊 Netflix Content Analysis Project
+This project is a complete end-to-end data analysis of Netflix’s content catalog using Python, MySQL, andPower BI. The goal was to uncover patterns in the type, release year, rating, duration, and origin of content available on Netflix, and visualize the insights using interactive dashboards.
 
 🧠 Key Highlights
 🔍 Data Cleaning & Preprocessing using Python (pandas)
