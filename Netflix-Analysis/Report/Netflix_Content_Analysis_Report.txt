@@ -1,0 +1,67 @@
+
+# Netflix Content Analysis Project Report
+
+## 📌 Project Objective
+The goal of this project is to analyze Netflix's content catalog using data analytics techniques. 
+We used a combination of Python, MySQL, and Power BI to uncover patterns, trends, and insights about the type, origin, and distribution of content available on Netflix.
+
+---
+
+## 🧰 Tools & Technologies Used
+- **Python (Pandas):** For data cleaning and transformation
+- **MySQL:** For structured data analysis using SQL queries
+- **Power BI:** For creating interactive dashboards and visualizations
+
+---
+
+## 🧹 Data Cleaning Steps
+1. Removed duplicate records
+2. Converted `date_added` to datetime format
+3. Extracted `duration_int` and `duration_unit` from the `duration` column
+4. Checked for and handled missing values
+5. Renamed/reorganized columns for clarity
+
+---
+
+## 🗃️ Dataset Overview
+- **Rows:** 8,790
+- **Columns:** 11
+- **Key Fields:** type, title, country, date_added, release_year, rating, listed_in
+
+---
+
+## 📊 Key SQL Analyses Performed
+- Number of TV Shows vs Movies
+- Top 10 Countries with Most Content
+- Yearly Trend of Content Addition
+- Most Common Ratings
+- Most Frequent Durations for Movies
+- Top Genres and Directors
+- Growth of Content Over Time
+- Country & Type Distribution
+- Genre + Type Combinations
+
+---
+
+## 📈 Power BI Visualizations
+- Pie Chart: TV Shows vs Movies
+- Bar Chart: Top 10 Countries by Content
+- Line Chart: Content Growth by Year
+- Table: Top 5 Genres and Ratings
+- Stacked Column Chart: Content Types Over the Years
+
+---
+
+## 🧠 Key Insights
+- Movies dominate Netflix’s content catalog compared to TV Shows
+- The United States and India are top contributors of Netflix content
+- TV-MA is the most common content rating
+- Content addition peaked around 2019–2020
+- Comedy and Drama are among the most popular genres
+
+---
+
+## ✅ Conclusion
+This project demonstrates how data analysis can uncover meaningful insights from entertainment data. 
+Using Python for cleaning, MySQL for querying, and Power BI for visualization created a complete and insightful analysis pipeline.
+
